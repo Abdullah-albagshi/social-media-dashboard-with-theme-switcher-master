@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="white">
+    <div class="container">
+        <header class="white">
+            <div class="title">
+                <h1 class="white">Social Media Dashboard</h1>
+                <h4 class="white">Total Followers: 23,004</h4>
+            </div>
+            <span class="white"></span>
+            <div class="darkDiv">
+                <h4 class="white">Dark Mode</h4>
+                <input type="checkbox" name="check" id="check">
+            </div>
+        </header>
+        <div class="dashboard">
+            <div class="dash">
+                <div class="img-acc">
+                    <img src="/images/icon-facebook.svg" alt="">
+                    <p class="white">@nathanf</p>
+                </div>
+                <h1 class="followersNum white">
+                    1987
+                </h1>
+                <p class="white">
+                    Followers
+                </p>
+                <div class="increase">
+                    <img src="/images/icon-up.svg" alt="">
+                    <p class="today ">12 Today</p>
+                </div>
+            </div>
+            <div class="dash">
+                <div class="img-acc">
+                    <img src="/images/icon-twitter.svg" alt="">
+                    <p class="white">@nathanf</p>
+                </div>
+                <h1 class="followersNum white">
+                    1044
+                </h1>
+                <p class="white">
+                    Followers
+                </p>
+                <div class="increase">
+                    <img src="/images/icon-up.svg" alt="">
+                    <p class="today">99 Today</p>
+                </div>
+            </div>
+            <div class="dash">
+                <div class="top-border"></div>
+                <div class="img-acc">
+                    <img src="/images/icon-instagram.svg" alt="">
+                    <p class="white">@realnathanf</p>
+                </div>
+                <h1 class="followersNum white">
+                    11k
+                </h1>
+                <p class="white">
+                    Followers
+                </p>
+                <div class="increase">
+                    <img src="/images/icon-up.svg" alt="">
+                    <p class="today">1099 Today</p>
+                </div>
+            </div>
+            <div class="dash">
+                <div class="img-acc">
+                    <img src="/images/icon-youtube.svg" alt="">
+                    <p class="white">Nathan F.</p>
+                </div>
+                <h1 class="followersNum white">
+                    8239
+                </h1>
+                <p class="white">
+                    Subscribers
+                </p>
+                <div class="decrease">
+                    <img src="/images/icon-down.svg" alt="">
+                    <p class="today">144 Today</p>
+                </div>
+            </div>
+        </div>
+        <div class="overviewDash">
+            <div class="overview-today">
+                <h2 class="white">Overview - Today</h2>
+            </div>
+            <div class="today-dash">
+                <div class="views">
+                    <p class="white">Page Views</p>
+                    <img src="/images/icon-facebook.svg" alt="">
+                </div>
+                <div class="viewsCount">
+                    <h1 class="white">87</h1>
+                    <div class="ViewsIncrease">
+                        <img src="/images/icon-up.svg" alt="">
+                        <p class="today">3%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="today-dash">
+                <div class="views">
+                    <p class="white">Likes</p>
+                    <img src="/images/icon-facebook.svg" alt="">
+                </div>
+                <div class="viewsCount">
+                    <h1 class="white">52</h1>
+                    <div class="ViewsDecrease">
+                        <img src="/images/icon-down.svg" alt="">
+                        <p class="today">2%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="today-dash">
+                <div class="views">
+                    <p class="white">Profile Views</p>
+                    <img src="/images/icon-instagram.svg" alt="">
+                </div>
+                <div class="viewsCount">
+                    <h1 class="white">52k</h1>
+                    <div class="ViewsIncrease">
+                        <img src="/images/icon-up.svg" alt="">
+                        <p class="today">1375%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="today-dash">
+                <div class="views">
+                    <p class="white">Likes</p>
+                    <img src="/images/icon-instagram.svg" alt="">
+                </div>
+                <div class="viewsCount">
+                    <h1 class="white">5462</h1>
+                    <div class="ViewsIncrease">
+                        <img src="/images/icon-up.svg" alt="">
+                        <p class="today">2257%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="today-dash">
+                <div class="views">
+                    <p class="white">Likes</p>
+                    <img src="/images/icon-twitter.svg" alt="">
+                </div>
+                <div class="viewsCount">
+                    <h1 class="white">507</h1>
+                    <div class="ViewsIncrease">
+                        <img src="/images/icon-up.svg" alt="">
+                        <p class="today">553%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="today-dash">
+                <div class="views">
+                    <p class="white">Retweets</p>
+                    <img src="/images/icon-twitter.svg" alt="">
+                </div>
+                <div class="viewsCount">
+                    <h1 class="white">117</h1>
+                    <div class="ViewsIncrease">
+                        <img src="/images/icon-up.svg" alt="">
+                        <p class="today">303%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="today-dash">
+                <div class="views">
+                    <p class="white">Likes</p>
+                    <img src="/images/icon-youtube.svg" alt="">
+                </div>
+                <div class="viewsCount">
+                    <h1 class="white">107</h1>
+                    <div class="ViewsDecrease">
+                        <img src="/images/icon-down.svg" alt="">
+                        <p class="today">19%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="today-dash">
+                <div class="views">
+                    <p class="white">Total Views</p>
+                    <img src="/images/icon-youtube.svg" alt="">
+                </div>
+                <div class="viewsCount">
+                    <h1 class="white">1407</h1>
+                    <div class="ViewsDecrease">
+                        <img src="/images/icon-down.svg" alt="">
+                        <p class="today">12%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/King1419" target="_blank">ABDULLAH ALBAGSHI</a>.
+    </div>
+    <script src="/script.js"></script>
+
+</body>
+
+</html>

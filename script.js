@@ -1,13 +1,13 @@
 var checkbox = document.getElementById('check');
-var whiteToDark = document.querySelectorAll('.white');
+var lightToDark = document.querySelectorAll('.light');
 var dash = document.querySelectorAll('.dash');
 var todayDash = document.querySelectorAll('.today-dash');
 
 checkbox.addEventListener('change', e => {
     if (e.target.checked) {
-        whiteToDark.forEach(item => {
+        lightToDark.forEach(item => {
             item.classList.add('dark');
-            item.classList.remove('white');
+            item.classList.remove('light');
         });
         dash.forEach(item => {
             item.classList.add('dark');
@@ -17,7 +17,7 @@ checkbox.addEventListener('change', e => {
         })
         checkbox.classList.add('dark');
     } else {
-        whiteToDark.forEach(item => {
+        lightToDark.forEach(item => {
             item.classList.remove('dark');
         })
         dash.forEach(item => {

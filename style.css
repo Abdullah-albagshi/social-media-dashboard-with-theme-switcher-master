@@ -337,6 +337,15 @@ span.dark {
     background: hsl(228, 21%, 27%)!important;
 }
 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
 @media screen and (min-width:700px) {
     header {
         flex-direction: row;
